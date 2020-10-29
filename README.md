@@ -1,7 +1,8 @@
 # CSV file to AWS RDS
 csv file reference: https://github.com/jooeungen/coronaboard_kr  
 
-RDS에 자동으로 github에 있는 CSV 파일을 다운받아서 import 해주는 코드입니다.  
+RDS에 자동으로 github에 있는 CSV 파일을 다운받아서 import 해주는 코드입니다. 
+public에 있는 EC2 인스턴스에서 private subnet에 있는 RDS로 접속하도록 하면 됩니다.
 
 # 파일 정보 (file information)
 imptords.py : rds와 연결해서 csv파일에서 값들을 가져와 import 해주는 python 코드
