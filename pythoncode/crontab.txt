@@ -1,0 +1,1 @@
+0 3 * * * sh /home/ec2-user/pythoncode/autodata.sh
